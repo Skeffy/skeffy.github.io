@@ -16,5 +16,12 @@ export default {
 </template>
 
 <style scoped>
+#projects {
+    display: grid;
+}
 
+h2 {
+    justify-self: center;
+    margin-bottom: 25px;
+}
 </style>

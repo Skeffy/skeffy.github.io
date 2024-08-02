@@ -18,6 +18,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
     "photo bio";
+    margin-bottom: 50px;
 }
 
 #headshot {
