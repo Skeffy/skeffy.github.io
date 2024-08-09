@@ -15,8 +15,8 @@
             <a href="https://www.linkedin.com/in/noahstevens1/" target="_blank" rel="noopener noreferrer">
                 <img src="../assets/linkedin-logo.webp" alt="LinkedIn logo" class="icon">
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-                <img src="" alt="Resume icon" class="icon">
+            <a href="https://drive.google.com/file/d/1TIqfKqpiOeYmef5Qu2DRvAcDgtY3DoG1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/resume.png" alt="Resume icon" class="icon">
             </a>
         </div>
     </header>
