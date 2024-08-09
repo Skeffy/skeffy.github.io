@@ -11,7 +11,7 @@ export default {
 <template>
   <div id="projects">
     <h2>Projects</h2>
-    <SingleProject />
+    <SingleProject v-for="project in this.$store.state.projects" :project="project"/>
   </div>
 </template>
 
