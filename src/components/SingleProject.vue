@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="project">
     <div id="project-photo">
-      <img src="../assets/" alt="Project thumbnail">
+      <img src="../assets/wip.png" alt="Project thumbnail" class="project-thumbnail">
       <button>Go to Project</button>
     </div>
     <div id="project-info">
@@ -30,7 +30,7 @@ export default {
 #project-photo {
   grid-area: photo;
   display: grid;
-  justify-content: center;
+  justify-items: center;
 }
 
 #project-info {
@@ -50,5 +50,10 @@ h4 {
 button {
   width: 200px;
   height: 25px;
+}
+
+.project-thumbnail{
+  height: 150px;
+  margin-bottom: 20px;
 }
 </style>
