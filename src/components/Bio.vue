@@ -4,7 +4,7 @@
 
 <template>
   <div id="bio">
-    <img id="headshot" src="../assets/headshot.JPG" alt="">
+    <img id="headshot" src="../assets/headshot.webp" alt="">
     <div id="about">
         <h2>About Me</h2>
         <p>This is some shit I be doin'.</p>
