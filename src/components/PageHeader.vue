@@ -38,6 +38,7 @@ header {
 
 #links {
     grid-area: links;
+    justify-self: right;
 }
 
 .icon {
