@@ -1,14 +1,20 @@
 <script>
 export default {
-  props: ["project"]
+  props: ["project"],
+
+  methods: {
+    openProject() {
+      window.open(this.project.link, '_blank');
+    }
+  }
 }
 </script>
 
 <template>
   <div class="project">
     <div id="project-photo">
-      <img src="../assets/wip.png" alt="Project thumbnail" class="project-thumbnail">
-      <button>Go to Project</button>
+      <img :src="project.img" alt="Project thumbnail" class="project-thumbnail">
+      <button @click="openProject()">Go to Project</button>
     </div>
     <div id="project-info">
       <h3>{{ project.name}}</h3>
