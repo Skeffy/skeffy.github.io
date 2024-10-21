@@ -28,6 +28,7 @@
     width: 250px;
     justify-self: right;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 #about {
