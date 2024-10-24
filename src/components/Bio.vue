@@ -16,26 +16,27 @@
 
 <style scoped>
 #bio {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    "photo bio";
-    margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "photo bio";
+  margin-bottom: 50px;
 }
 
 #headshot {
-    grid-area: photo;
-    width: 250px;
-    justify-self: right;
-    margin-right: 20px;
-    clip-path: circle();
+  grid-area: photo;
+  width: 250px;
+  justify-self: right;
+  margin-right: 20px;
+  clip-path: circle();
 }
 
 #about {
-    grid-area: bio;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    line-height: 2;
+  grid-area: bio;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  line-height: 2;
+  align-self: center;
 }
 </style>
