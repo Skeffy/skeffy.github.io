@@ -39,6 +39,7 @@ header {
 #links {
     grid-area: links;
     justify-self: right;
+    align-self: center;
 }
 
 .icon {
