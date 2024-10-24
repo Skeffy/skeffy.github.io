@@ -4,7 +4,7 @@
 
 <template>
   <div id="bio">
-    <img id="headshot" src="../assets/headshot.webp" alt="">
+    <img id="headshot" src="../assets/headshot.png" alt="">
     <div id="about">
         <h2>About Me:</h2>
         <p>I am a software developer who loves a good challenge. Some of the technologies I use include Java, JavaScript, Vue.js, Spring Boot, and PostgreSQL, but there are many more I am familiar with. With a passion for learning and a drive to add to my toolbelt, 
@@ -28,7 +28,7 @@
     width: 250px;
     justify-self: right;
     margin-right: 20px;
-    border-radius: 5px;
+    clip-path: circle();
 }
 
 #about {
