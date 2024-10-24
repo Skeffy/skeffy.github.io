@@ -26,7 +26,7 @@
 #headshot {
   grid-area: photo;
   width: 250px;
-  justify-self: right;
+  justify-self: center;
   margin-right: 20px;
   clip-path: circle();
 }
