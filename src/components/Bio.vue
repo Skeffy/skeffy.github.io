@@ -27,6 +27,7 @@
   grid-area: photo;
   width: 250px;
   justify-self: center;
+  align-self: center;
   margin-right: 20px;
   clip-path: circle();
 }
@@ -38,5 +39,9 @@
   margin-left: 10px;
   line-height: 2;
   align-self: center;
+}
+
+#about>p {
+  padding-right: 75px;
 }
 </style>
