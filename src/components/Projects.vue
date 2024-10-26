@@ -17,11 +17,17 @@ export default {
 
 <style scoped>
 #projects {
-    display: grid;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  height: fit-content;
 }
 
 h2 {
-    justify-self: center;
-    margin-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
