@@ -28,7 +28,9 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     ". heading links";
+    padding-bottom: 25px;
     margin-bottom: 100px;
+    border-bottom: 4px solid orange
 }
 
 #heading {
@@ -40,6 +42,7 @@ header {
     grid-area: links;
     justify-self: right;
     align-self: center;
+    padding-right: 50px;
 }
 
 .icon {
