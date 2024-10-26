@@ -15,7 +15,7 @@ export default {
 
 <style>
 .list {
-    background-color: rgb(206, 149, 63);
+    background-color: rgb(0, 0, 0, .3);
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,6 @@ export default {
     width: fit-content;
     margin: 10px;
     border-radius: 25px;
-    box-shadow: 5px 5px 5px black;
 }
 
 .bulletlist {
