@@ -13,8 +13,8 @@ import List from './components/List.vue';
       <div id="content">
         <Projects />
         <div id="lists">
-          <List :list="this.$store.state.skills"/>
-          <List :list="this.$store.state.softwares"/>
+          <List :list="$store.state.skills"/>
+          <List :list="$store.state.softwares"/>
         </div>
       </div>
     </main>

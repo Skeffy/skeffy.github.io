@@ -5,10 +5,10 @@ export default {
 </script>
 
 <template>
-    <div :id="this.list.name" class="list">
-        <h2 class="name">{{ this.list.name }}:</h2>
+    <div :id="list.name" class="list">
+        <h2 class="name">{{ list.name }}:</h2>
         <ul class="bulletlist">
-            <li v-for="item in this.list.list" :value="item" class="listitem">{{ item }}</li>
+            <li v-for="item in list.list" :value="item" class="listitem">{{ item }}</li>
         </ul>
     </div>
 </template>
