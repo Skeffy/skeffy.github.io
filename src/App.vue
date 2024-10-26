@@ -10,11 +10,13 @@ import List from './components/List.vue';
     <PageHeader />
     <main>
       <Bio />
-      <div id="lists">
-        <List :list="this.$store.state.skills"/>
-        <List :list="this.$store.state.softwares"/>
+      <div id="content">
+        <Projects />
+        <div id="lists">
+          <List :list="this.$store.state.skills"/>
+          <List :list="this.$store.state.softwares"/>
+        </div>
       </div>
-      <Projects />
     </main>
   </div>
 </template>
@@ -25,10 +27,23 @@ import List from './components/List.vue';
   flex-direction: column;
 }
 
+#content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "projects lists";
+}
+
 #lists {
-  margin-top: 100px;
+  grid-area: lists;
   margin-bottom: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+#projects {
+  grid-area: projects;
 }
 </style>
