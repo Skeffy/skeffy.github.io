@@ -33,6 +33,10 @@ header {
     border-bottom: 4px solid orange
 }
 
+#heading>h1 {
+    font-weight: bolder;
+}
+
 #heading {
     grid-area: heading;
     justify-self: center;
