@@ -11,10 +11,10 @@ export function createStore(currentStats) {
                     link: "https://guesstheflag.netlify.app"
                 },
                 {
-                    name: "Dungeons and Dragons Character Creator",
-                    desc: "This project is in very early development. Stay tuned!",
+                    name: "TellerNet",
+                    desc: "A Java based server application for handling common bank teller duties such as creating customer profiles, opening new accounts, and logging account transactions. Information is stored via a PostgreSQL database and manipulated through a front-end built in Vue.js.",
                     img: "/wip.png",
-                    tech: "Javascript | Vue.js"
+                    tech: "Java | PostgreSQL | Vue.js"
                 },
             ],
 
