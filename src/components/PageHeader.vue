@@ -10,12 +10,12 @@
         </div>
         <div id="links">
             <a href="https://github.com/Skeffy" target="_blank" rel="noopener noreferrer">
-                <img src="../assets/github-logo.png" alt="Github logo" class="icon">
+                <img src="../assets/github.png" alt="Github logo" class="icon">
             </a>
             <a href="https://www.linkedin.com/in/noahstevens1/" target="_blank" rel="noopener noreferrer">
                 <img src="../assets/linkedin-logo.webp" alt="LinkedIn logo" class="icon">
             </a>
-            <a href="https://drive.google.com/file/d/1TIqfKqpiOeYmef5Qu2DRvAcDgtY3DoG1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1TK2e_J9a6EzilUrn5XAd1zyQYpo4Asxk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <img src="../assets/resume.png" alt="Resume icon" class="icon">
             </a>
         </div>
