@@ -34,7 +34,7 @@ export function createStore(currentStats) {
             education: [
                 {
                     name: "Tech Elevator",
-                    desc: "",
+                    desc: "This is a description of this education.",
                     date: "May 2024"
                 },
             ]
