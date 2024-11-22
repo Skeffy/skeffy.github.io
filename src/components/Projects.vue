@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div id="projects">
+  <div id="projects" class="module">
     <h2>Projects</h2>
     <SingleProject v-for="project in this.$store.state.projects" :project="project"/>
   </div>
@@ -17,10 +17,6 @@ export default {
 
 <style scoped>
 #projects {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
   height: fit-content;
 }
 
