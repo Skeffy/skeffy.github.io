@@ -3,6 +3,7 @@ import PageHeader from './components/PageHeader.vue';
 import Bio from './components/Bio.vue';
 import Projects from './components/Projects.vue';
 import List from './components/List.vue';
+import Education from './components/Education.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import List from './components/List.vue';
           <List :list="$store.state.skills"/>
           <List :list="$store.state.softwares"/>
         </div>
+        <Education />
       </div>
     </main>
   </div>
