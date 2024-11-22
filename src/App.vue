@@ -33,7 +33,8 @@ import Education from './components/Education.vue';
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-areas: 
-  "projects lists";
+  "projects lists"
+  "education education";
 }
 
 #lists {
@@ -47,5 +48,17 @@ import Education from './components/Education.vue';
 
 #projects {
   grid-area: projects;
+}
+
+#education {
+  grid-area: education;
+}
+
+.module {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
 }
 </style>
