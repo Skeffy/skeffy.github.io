@@ -23,36 +23,60 @@
 </template>
 
 <style scoped>
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    ". heading links";
-    padding-bottom: 25px;
-    margin-bottom: 100px;
-    border-bottom: 4px solid orange
-}
-
-#heading>h1 {
-    font-weight: bolder;
-}
-
-#heading {
-    grid-area: heading;
-    justify-self: center;
-}
-
-#links {
-    grid-area: links;
-    justify-self: right;
-    align-self: center;
-    padding-right: 50px;
-}
 
 .icon {
     height: 50px;
     width: 50px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+header {
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+    border-bottom: 4px solid orange
+}
+
+@media (min-width: 950px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". heading links";
+    }
+    
+    #heading>h1 {
+        font-weight: bolder;
+    }
+    
+    #heading {
+        grid-area: heading;
+        justify-self: center;
+    }
+    
+    #links {
+        grid-area: links;
+        justify-self: right;
+        align-self: center;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #heading {
+        justify-items: center;
+        margin-bottom: 25px;
+    }
+
+    #links {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 </style>

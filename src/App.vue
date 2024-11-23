@@ -25,40 +25,51 @@ import Education from './components/Education.vue';
 
 <style scoped>
 #app {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+  }
+
+@media (min-width: 1300px) {
+  #content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "projects lists"
+    "education education";
+  }
+  
+  #lists {
+    grid-area: lists;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #projects {
+    grid-area: projects;
+  }
+  
+  #education {
+    grid-area: education;
+  }
 }
 
-#content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: 
-  "projects lists"
-  "education education";
+@media (min-width: 950px) {
+  #lists {
+    grid-area: lists;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:first baseline;
+  }
 }
 
-#lists {
-  grid-area: lists;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#projects {
-  grid-area: projects;
-}
-
-#education {
-  grid-area: education;
-}
-
-.module {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
+@media (max-width: 950px) {
+  #body {
+    
+  }
 }
 </style>
