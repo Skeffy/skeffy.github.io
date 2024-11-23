@@ -68,8 +68,13 @@ import Education from './components/Education.vue';
 }
 
 @media (max-width: 950px) {
-  #body {
-    
+  #lists {
+    grid-area: lists;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:first baseline;
   }
 }
 </style>
