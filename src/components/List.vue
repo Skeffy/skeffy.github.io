@@ -33,4 +33,11 @@ export default {
 .listitem {
     padding-right: 10px;
 }
+
+@media (max-width: 750px) {
+    .list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 </style>
