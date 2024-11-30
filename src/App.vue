@@ -3,6 +3,7 @@ import PageHeader from './components/PageHeader.vue';
 import Bio from './components/Bio.vue';
 import Projects from './components/Projects.vue';
 import List from './components/List.vue';
+import Education from './components/Education.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import List from './components/List.vue';
           <List :list="$store.state.skills"/>
           <List :list="$store.state.softwares"/>
         </div>
+        
       </div>
     </main>
   </div>
@@ -23,27 +25,64 @@ import List from './components/List.vue';
 
 <style scoped>
 #app {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+  }
+
+@media (min-width: 1300px) {
+  #content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "projects lists"
+    "education education";
+  }
+  
+  #lists {
+    grid-area: lists;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #projects {
+    grid-area: projects;
+  }
+  
+  #education {
+    grid-area: education;
+  }
 }
 
-#content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: 
-  "projects lists";
+@media (min-width: 950px) {
+  #lists {
+    grid-area: lists;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:first baseline;
+  }
 }
 
-#lists {
-  grid-area: lists;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+@media (min-width: 750px) {
+  #lists {
+    grid-area: lists;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:first baseline;
+  }
 }
 
-#projects {
-  grid-area: projects;
+@media (max-width: 750px) {
+  #lists {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
 }
 </style>

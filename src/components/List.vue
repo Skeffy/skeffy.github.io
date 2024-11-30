@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div :id="list.name" class="list">
+    <div :id="list.name" class="list module">
         <h2 class="name">{{ list.name }}:</h2>
         <ul class="bulletlist">
             <li v-for="item in list.list" :value="item" class="listitem">{{ item }}</li>
@@ -15,14 +15,9 @@ export default {
 
 <style>
 .list {
-    background-color: rgb(0, 0, 0, .3);
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
     height: fit-content;
     width: fit-content;
     margin: 10px;
-    border-radius: 25px;
 }
 
 .bulletlist {
@@ -37,5 +32,12 @@ export default {
 
 .listitem {
     padding-right: 10px;
+}
+
+@media (max-width: 750px) {
+    .list {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 </style>

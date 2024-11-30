@@ -15,33 +15,53 @@
 </template>
 
 <style scoped>
-#bio {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-areas: 
-  "photo bio";
-  margin-bottom: 50px;
-}
-
 #headshot {
-  grid-area: photo;
   width: 250px;
-  justify-self: center;
-  align-self: center;
-  margin-right: 20px;
   clip-path: circle();
 }
 
-#about {
-  grid-area: bio;
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  line-height: 2;
-  align-self: center;
+@media (min-width: 950px) {
+  #bio {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "photo bio";
+    margin-bottom: 50px;
+  }
+
+  #headshot {
+    grid-area: photo;
+    margin-right: 20px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #about {
+    grid-area: bio;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 2;
+    align-self: center;
+  }
+
+  #about>p {
+    padding-right: 75px;
+  }
 }
 
-#about>p {
-  padding-right: 75px;
+@media (max-width: 950px) {
+  #bio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  #headshot {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+  }
 }
+
 </style>

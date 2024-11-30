@@ -37,7 +37,7 @@ export default {
   grid-area: photo;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -116,5 +116,21 @@ export default {
   background-color: #acacac;
   box-shadow: none;
   color: #2c5777;
+}
+
+@media (max-width: 750px) {
+  .project {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #project-info {
+    margin-bottom: 25px;
+  }
+
+  #project-desc {
+    justify-self: center;
+    padding: 0px;
+  }
 }
 </style>
