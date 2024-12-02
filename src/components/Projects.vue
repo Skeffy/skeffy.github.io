@@ -22,7 +22,6 @@ export default {
 
 h2 {
   margin-bottom: 25px;
-  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
 }
