@@ -34,8 +34,14 @@ export function createStore(currentStats) {
             education: [
                 {
                     name: "Tech Elevator",
-                    desc: "This is a description of this education.",
-                    date: "May 2024"
+                    desc: "Full-stack bootcamp designing software systems and solutions with 800+ hours of education and application.",
+                    date: "2023 - 2024"
+                },
+
+                {
+                    name: "University of Dayton",
+                    desc: "Credit earned towards Bachelors of Science in computer engineering",
+                    date: "2016 - 2017"
                 },
             ]
         },
