@@ -17,7 +17,7 @@ import Education from './components/Education.vue';
           <List :list="$store.state.skills"/>
           <List :list="$store.state.softwares"/>
         </div>
-        
+        <Education />
       </div>
     </main>
   </div>
@@ -40,7 +40,6 @@ import Education from './components/Education.vue';
   
   #lists {
     grid-area: lists;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -53,10 +52,11 @@ import Education from './components/Education.vue';
   
   #education {
     grid-area: education;
+    margin-top: 30px;
   }
 }
 
-@media (min-width: 950px) {
+@media (max-width: 1300px) {
   #lists {
     grid-area: lists;
     margin-bottom: 50px;
@@ -67,7 +67,7 @@ import Education from './components/Education.vue';
   }
 }
 
-@media (min-width: 750px) {
+@media (max-width: 950px) {
   #lists {
     grid-area: lists;
     margin-bottom: 50px;
@@ -83,6 +83,12 @@ import Education from './components/Education.vue';
     display: flex;
     flex-direction: column;
     justify-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #app {
+    font-size: 12px;
   }
 }
 </style>
