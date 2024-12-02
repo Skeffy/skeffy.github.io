@@ -15,6 +15,8 @@ export default {
     </div>
 </template>
 
-<style>
-
+<style scoped>
+h2 {
+    margin-bottom: 10px;
+}
 </style>
