@@ -19,14 +19,18 @@ export default {
     grid-template-areas: 
     "name date"
     "desc desc";
+    margin-bottom: 15px;
 }
 
 #ed-name {
     grid-area: name;
+    margin-bottom: 5px;
 }
 
 #ed-date {
     grid-area: date;
+    display: flex;
+    justify-content: right;
 }
 
 #ed-desc {
