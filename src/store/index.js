@@ -16,7 +16,7 @@ export function createStore(currentStats) {
                     desc: "A Java based server application for handling common bank teller duties such as creating customer profiles, opening new accounts, and logging account transactions. Information is stored via a PostgreSQL database and manipulated through a front-end built in Vue.js.",
                     img: "/wip.png",
                     tech: "Java | Spring Boot | PostgreSQL | Vue.js",
-                    link: ""
+                    link: "https://github.com/Skeffy/skeffy.github.io"
                 },
             ],
 
