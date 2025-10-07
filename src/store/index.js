@@ -16,13 +16,27 @@ export function createStore(currentStats) {
                     desc: "A Java based server application for handling common bank teller duties such as creating customer profiles, opening new accounts, and logging account transactions. Information is stored via a PostgreSQL database and manipulated through a front-end built in Vue.js.",
                     img: "/wip.png",
                     tech: "Java | Spring Boot | PostgreSQL | Vue.js",
-                    link: ""
+                    link: "https://github.com/Skeffy/TellerNet"
                 },
+                {
+                    name: "Octave",
+                    desc: "A social media platform for discovering, sharing, and talking about all things music. Built with a microservice architecture with authentication service, core services, and databases all living in independent Docker containers.",
+                    img: "/octave.png",
+                    tech: "Java | Spring Boot | React | Typescript | Docker",
+                    link: "https://github.com/Skeffy/Octave"
+                },
+                {
+                    name: "Minecraft Stews Mod",
+                    desc: "A mod for the game Minecraft that adds a new block with it's own unique crafting system and a whole list of recipes for new consumables. Includes custom assets, block, block entity, recipes, and items. Also features compatability for Just Enough Items.",
+                    img: "/stews.png",
+                    tech: "Java | Forge Mod Loader | Blockbench",
+                    link: "https://github.com/Skeffy/Skeffy-Stews"
+                }
             ],
 
             skills: {
                     name: "Skills",
-                    list: ["Java", "Spring Boot", "PostgreSQL", "javaScript", "Docker", "Vue.js", "HTML", "CSS", "RESTful API", "Table Design", "JDBC", "Agile", "Unit Testing", "SOLID", "Git", "Kafka"]
+                    list: ["Java", "Spring Boot", "PostgreSQL", "javaScript", "Docker", "Vue.js", "React", "HTML", "CSS", "RESTful API", "Table Design", "JDBC", "Agile", "Unit Testing", "SOLID", "Git", "Kafka", "Maven", "Gradle"]
             },
 
             softwares: {
