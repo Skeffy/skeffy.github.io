@@ -55,6 +55,7 @@ export default {
   grid-area: title;
   justify-self: center;
   align-self: last baseline;
+  text-decoration: underline;
 }
 
 #project-tech {
