@@ -8,8 +8,8 @@ export function createStore(currentStats) {
                     name: "Flag Guesser",
                     desc: "A Wordle-like daily game where you have to guess the country that a flag belongs to. A Java/Spring Boot backend handles serving the client country information from a PostgreSQL database while the Vue.js front end handles the game logic and tracking user stats.",
                     img: "/flag-guesser-thumbnail.png",
-                    tech: "Java | Spring Boot | Vue.js | Bootstrap",
-                    link: "https://guesstheflag.netlify.app"
+                    tech: "Java | Spring Boot | Vue.js | Docker",
+                    link: "https://flagguesser.pages.dev/daily"
                 },
                 {
                     name: "TellerNet",
