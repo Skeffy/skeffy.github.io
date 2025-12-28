@@ -30,7 +30,7 @@ export function createStore(currentStats) {
                     desc: "A mod for the game Minecraft that adds a new block with it's own unique crafting system and a whole list of recipes for new consumables. Includes custom assets, block, block entity, recipes, and items. Also features compatability for Just Enough Items.",
                     img: "/stews.png",
                     tech: "Java | Forge Mod Loader | Blockbench",
-                    link: "https://github.com/Skeffy/Skeffy-Stews"
+                    link: "https://www.curseforge.com/minecraft/mc-mods/skeffys-stews"
                 }
             ],
 
